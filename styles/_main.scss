@@ -1,0 +1,79 @@
+.main {
+    padding: 100px 0;
+
+		&__subTitle {
+            font-family:var(--general-font);
+            font-size: 16px;
+            line-height: 21px;
+            padding-bottom: 15px;
+            color: #7690A8;
+		}
+
+		&__title {
+            font-family:"NunitoSans-SemiBold";
+            font-size: 40px;
+            line-height: 52px;
+            padding-bottom: 40px;
+		}
+
+		&__cards {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+		}
+
+		&__card {
+            padding: 40px;
+            background-color: #FFFFFF;
+            border: 1px solid #E5EAF4;
+            border-radius: 8px;
+            transition: 0.5s;
+            &:hover{
+                border: 1px solid #3DB370;
+                --dark-blue:#52C29D;
+                --middle-blue: #CAEFF2;
+                --light-blue: #E1F4F5;
+                --lighten-blue:#F4FEFF;
+            }
+            &:hover .main__card-icon-box{
+                border: 1px solid rgba(61, 179, 112, 0.3);
+            }
+		}
+
+        &__card-icon-box{
+            display: grid;
+            place-items: center;
+            width: 64px;
+            height: 64px;
+            border: 1px solid rgba(21, 101, 216, 0.1);
+            border-radius: 16px;
+            transition: 0.5s;
+        }
+		&__card-icon {
+            width: auto;
+            height: 36px;
+		}
+
+		&__card-title {
+            font-family:var(--general-font);
+            font-size: 24px;
+            line-height: 21px;
+            padding-top: 30px;
+		}
+
+		&__card-text {
+            font-family:var(--general-font);
+            font-size: 16px;
+            line-height: 28px;
+            padding: 15px 0 30px;
+            max-width: 275px;
+		}
+
+		&__card-text-add {
+            font-family:"Roboto-Medium";
+            font-size: 16px;
+            line-height: 19px;
+            color: #3DB370;
+            text-decoration: none;
+		}
+}

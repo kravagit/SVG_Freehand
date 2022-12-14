@@ -1,0 +1,25 @@
+@import "./fonts";
+@import "./variables";
+@import "./header";
+@import "./main";
+@import "./footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #16133D;
+}
+a{
+    color: #0D0D0D;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+

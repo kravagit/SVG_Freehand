@@ -1,0 +1,20 @@
+.header {
+    border-bottom: 1px solid #EFEEF3;
+    padding: 22.5px 0;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo {
+    width: 30px;
+    aspect-ratio: 1 / 1;
+}
+.title {
+    font-family: var(--logo-font);
+    font-size: 35px;
+    line-height: 35px;
+    padding-left: 12.5px;
+		&_white {
+            color: white;
+		}
+}
